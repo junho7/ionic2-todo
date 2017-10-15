@@ -1,5 +1,14 @@
 {
   "name": "blank",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "proxies": [
+    {
+      "path": "/pouchdb",
+      "proxyUrl": "https://777e8289-0cc9-461e-ae62-9938ac27b339-bluemix.cloudant.com/tododb/"
+    }  
+  ]
 }
